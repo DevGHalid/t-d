@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>О нас</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+</head>
+<body>
+  <!-- About Us -->
+
+  <section class="abous-us">
+    <div class="abous-us__container container_two">
+      <div class="abous-us__content">
+        <h1 class="fill-forms__title title">Укажите ваши контактные данные</h1>
+        <div class="fill-forms__sub_title">Наш менеджер свяжется с вами в ближайшее время</div>
+        <form action="" class="form-fill__row">
+          <div class="fill-forms__rowItem">
+            <div class="fill-forms__item">
+              <label for="" class="fill-forms__label">
+                <div class="fill-forms__text">Название компании:</div>
+                <input type="text" class="fill-forms__input" placeholder="ООО Вымпелком">
+              </label>
+            </div>
+            <div class="fill-forms__item">
+              <label for="" class="fill-forms__label">
+                <div class="fill-forms__text">Контактное лицо:</div>
+                <input type="text" class="fill-forms__input">
+              </label>
+            </div>
+            <div class="fill-forms__item">
+              <label for="" class="fill-forms__label">
+                <div class="fill-forms__text">Почтовый адрес:</div>
+                <input type="text" class="fill-forms__input">
+              </label>
+            </div>
+            <div class="fill-forms__item">
+              <label for="" class="fill-forms__label">
+                <div class="fill-forms__text">Контактный телефон:</div>
+                <input type="text" class="fill-forms__input" name="yes">
+              </label>
+            </div>
+            <div class="agree__row">
+              <label for="chekced" class="agree">
+                <span class="agree__text">Согласен на обработку персональных данных</span>
+              </label>
+              <input type="checkbox" class="agree__checkbox" id="chekced">
+            </div>
+            <div class="fill-forms__btn">
+                <button class="fill-forms__btnItem btn_text btn_show_modal">свяжетесь со мной</button>
+            </div>
+        </form>
+      </div>
+    </div>
+    <div class="background_tow" style="background-image: url(img/zhen.png)"></div>
+  </section>
+
+  <div class="form__modal_contacts">
+    <div class="form__modal_row container_two">
+      <form action="" method="" class="form__modal">
+        <div class="fill-forms__item">
+          <label for="" class="fill-forms__label">
+            <div class="fill-forms__text">Контактное лицо:</div>
+            <input type="text" class="fill-forms__input">
+          </label>
+        </div>
+        <div class="fill-forms__item">
+          <label for="" class="fill-forms__label">
+            <div class="fill-forms__text">Контактный телефон:</div>
+            <input type="text" class="fill-forms__input">
+          </label>
+        </div>
+        <div class="fill-forms__btn">
+            <button class="fill-forms__btnItem btn_text">позвоните мне</button>
+        </div>
+        <div class="close__modal">&times;</div>
+      </form>
+      <div class="background_tow" style="background-image: url(img/zhen.png)"></div>
+    </div>
+  </div>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/common.js"></script>
+
+</body>
+</html>
